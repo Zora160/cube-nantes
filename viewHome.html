@@ -143,6 +143,82 @@ body {
            activateCameraSwitchKey: true                        // Switch between top view / virtual visit with space bar if not false or missing */
           });  
 </script>
+<!-- Fully optimized fullscreen + responsive Sweet Home 3D viewer (PC + Mobile) -->
 
+
+<div id="viewerProgressDiv">
+<progress id="viewerProgress" class="viewerComponent" value="0" max="200" style="width:100%"></progress>
+<label id="viewerProgressLabel" class="viewerComponent"></label>
+</div>
+
+
+<div id="viewerNavigationDiv">
+<div>
+<input id="aerialView" class="viewerComponent" name="cameraType" type="radio" />
+<label for="aerialView">Vue aérienne</label>
+</div>
+
+
+<div>
+<input id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" />
+<label for="virtualVisit">Visite virtuelle</label>
+</div>
+
+
+<select id="levelsAndCameras" class="viewerComponent"></select>
+</div>
+
+
+<script>
+var homeUrl = "Le%20cube%20Nantes.zip";
+
+
+var onerror = function(err) {
+if (err == "No WebGL") {
+alert("Votre navigateur ne supporte pas WebGL.");
+} else {
+console.log(err.stack);
+alert("Erreur: " + (err.message ? err.constructor.name + " " + err.message : err));
+}
+};
+
+
+var onprogression = function(part, info, percentage) {
+var progress = document.getElementById("viewerProgress");
+
+
+if (part === HomeRecorder.READING_HOME) {
+progress.value = percentage * 100;
+info = info.substring(info.lastIndexOf('/') + 1);
+} else if (part === Node3D.READING_MODEL) {
+progress.value = 100 + percentage * 100;
+if (percentage === 1) {
+document.getElementById("viewerProgressDiv").style.visibility = "hidden";
+}
+}
+
+
+document.getElementById("viewerProgressLabel").innerHTML =
+(percentage ? Math.floor(percentage * 100) + "% " : "") + part + " " + info;
+};
+
+
+viewHome(
+"viewerCanvas",
+homeUrl,
+onerror,
+onprogression,
+{
+roundsPerMinute: 0,
+navigationPanel: "none",
+aerialViewButtonId: "aerialView",
+virtualVisitButtonId: "virtualVisit",
+levelsAndCamerasListId: "levelsAndCameras",
+activateCameraSwitchKey: true
+}
+);
+</script>
+</body>
+</html>
 </body>
 </html>
