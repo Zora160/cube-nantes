@@ -1,0 +1,551 @@
+<?xml version='1.0'?>
+<home version='7400' exportFlags='17' name='Le cube Nantes.sh3d' camera='topCamera' wallHeight='250.0'>
+  <environment groundColor='FFFFFFFF' skyColor='FF0D0D0D' lightColor='00BABABA' observerCameraElevationAdjusted='false'>
+    <observerCamera attribute='cameraPath' id='observerCamera-9ac01d55-4509-4277-aad8-85b051241368' lens='PINHOLE' x='564.1192' y='3494.8748' z='170.0' yaw='84.85116' pitch='0.100796536' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-31d71471-2147-4450-8e17-791918534f2d' lens='PINHOLE' x='873.34064' y='2753.174' z='170.0' yaw='84.876144' pitch='-0.039203458' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-95402ec5-7bc8-401f-9b91-4f917b3e5501' lens='PINHOLE' x='1004.55743' y='2192.3357' z='170.0' yaw='86.34613' pitch='0.06579653' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-0bbb11e4-48ab-4717-9b57-a58ed1f90980' lens='PINHOLE' x='1826.431' y='2406.9802' z='170.0' yaw='84.72612' pitch='-0.029203404' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-bfd70457-1198-491b-9c37-5529d444c8ef' lens='PINHOLE' x='2037.9778' y='2044.6907' z='170.0' yaw='87.26109' pitch='0.0657966' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-905adc37-1ad9-4325-a697-077424a179b0' lens='PINHOLE' x='2440.851' y='2044.3224' z='170.0' yaw='86.39608' pitch='0.030796595' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-acd70475-b4a1-4021-ab07-a1652eb151e3' lens='PINHOLE' x='2815.8877' y='1448.549' z='170.0' yaw='83.626076' pitch='0.07579659' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-7b5fdc26-54e0-4092-abb6-1f462dd2feef' lens='PINHOLE' x='1783.334' y='1286.5544' z='170.0' yaw='83.31608' pitch='0.025796644' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-1b7616d6-0f9c-4c1e-a61d-60edf84e34fe' lens='PINHOLE' x='2005.0919' y='871.9505' z='170.0' yaw='84.694115' pitch='-0.08920343' fieldOfView='1.0995575' time='1764417600000'/>
+    <observerCamera attribute='cameraPath' id='observerCamera-6842c1a1-04f4-49a8-9e54-ac744c229fec' lens='PINHOLE' x='2839.4553' y='368.39255' z='170.0' yaw='83.36911' pitch='-0.029203441' fieldOfView='1.0995575' time='1764417600000'/>
+    <texture attribute='groundTexture' name='Carreaux gris' creator='eTeks' catalogId='eTeks#greyTile' width='31.5' height='31.5' image='0'/>
+  </environment>
+  <observerCamera attribute='observerCamera' lens='PINHOLE' x='3016.0662' y='232.23131' z='170.0' yaw='-4.9454694' pitch='-0.024202578' fieldOfView='1.0995575' time='1764417600000'/>
+  <camera attribute='topCamera' lens='PINHOLE' x='1024.116' y='-4376.576' z='4200.9834' yaw='-722.64777' pitch='0.5949996' fieldOfView='1.0995575' time='1764417600000'/>
+  <pieceOfFurniture name='outdoor_staircase' model='2/outdoor_staircase.obj' x='258.67807' y='690.0174' angle='3.1415927' width='300.0' depth='600.0' height='425.5' modelSize='553601'/>
+  <pieceOfFurniture name='outdoor_staircase' model='2/outdoor_staircase.obj' x='269.40137' y='1694.5996' width='300.0' depth='600.0' height='425.5' modelSize='553601'/>
+  <doorOrWindow catalogId='eTeks#door' name='Porte' creator='eTeks' model='4' x='2715.904' y='2826.895' angle='4.712389' width='91.5' depth='14.500751' height='208.5' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <doorOrWindow catalogId='eTeks#door' name='Porte' creator='eTeks' model='4' x='2502.5461' y='2834.2795' angle='1.5707964' width='91.5' depth='14.500751' height='208.5' modelSize='14086' movable='false' cutOutShape='M0,0 v1 h1 v-1 z' wallCutOutOnBothSides='true'/>
+  <pieceOfFurniture catalogId='eTeks#curtains' name='Rideaux' creator='eTeks' model='6/curtains.obj' x='2618.7961' y='2520.265' elevation='8.5' angle='3.1415927' width='220.0' depth='10.0' height='400.0' modelSize='38679'/>
+  <pieceOfFurniture name='clicClacOuvert' model='8/clicClacOuvert.obj' x='2052.8262' y='1246.876' angle='3.1415927' width='485.0' depth='155.0' height='50.0' color='FF303030' modelSize='39758'/>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1559.1501' y='2494.765' elevation='150.0' angle='3.1415927' width='83.2' depth='6.0' height='59.2' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Pieter Claesz' width='20.0' height='14.08' image='11'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1341.1237' y='2494.765' elevation='150.0' angle='3.1415927' width='95.5' depth='6.0' height='55.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Poisson et crabes' width='20.0' height='11.787351' image='12'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1622.5431' y='1798.3694' elevation='155.5' angle='1.7484555E-7' width='125.5' depth='6.0' height='95.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='singe et fruit' width='20.0' height='15.114784' image='13'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2216.442' y='2494.765' elevation='160.5' angle='3.1415927' width='27.2' depth='6.0' height='35.2' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Jules Caron' width='20.0' height='25.800274' image='14'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1874.7517' y='1798.3694' elevation='155.5' angle='1.7484555E-7' width='170.5' depth='6.0' height='120.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Légume et singe Coninck' width='20.0' height='14.112236' image='15'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2995.6978' y='383.74854' elevation='150.0' angle='1.5707964' width='82.0' depth='10.0' height='73.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='_M020501_2019.2.1_M_ProcolorLaurentBruneau-1000x562' width='20.0' height='11.251251' image='17'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2154.6997' y='1798.3694' elevation='170.5' angle='1.7484555E-7' width='69.0' depth='6.0' height='51.0' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Meijer nature morte 2' width='20.0' height='13.675' image='18'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2025.6987' y='1796.3694' elevation='170.5' angle='1.7484555E-7' width='73.0' depth='6.0' height='60.0' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Nature morte Meyer Carotte' width='20.0' height='16.333334' image='19'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1807.1012' y='1780.8694' elevation='150.5' angle='3.1415927' width='85.5' depth='10.0' height='70.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Paul Sérusier La cuisine' width='20.0' height='14.800001' image='20'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2258.3215' y='1796.4777' elevation='180.5' angle='1.7484555E-7' width='56.5' depth='10.0' height='48.0' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Sérusier Citron et escargot' width='20.0' height='15.000001' image='21'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2449.3613' y='1798.3694' elevation='180.5' angle='1.7484555E-7' width='52.4' depth='6.0' height='39.9' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Sérusier Pomme citron couteau' width='20.0' height='15.425' image='22'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2356.4312' y='1795.0828' elevation='170.5' angle='0.008658982' width='92.0' depth='6.0' height='60.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='C-1908.NaPaus sérusieier potiron' width='20.0' height='13.075933' image='23'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1463.7473' y='1798.3694' elevation='170.0' angle='1.7484555E-7' width='24.0' depth='6.0' height='36.0' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Arcimboldo' width='20.0' height='27.044445' image='24'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#frame' name='Cadre' creator='eTeks' model='26/frame.obj' x='1313.9509' y='1794.4694' angle='1.7484555E-7' width='250.0' depth='2.2' height='400.0' modelSize='3155'>
+    <material name='Back' color='00000000'/>
+    <material name='Frame' color='00000000'/>
+    <material name='Picture'>
+      <texture name='Arcimboldo_Vegetables_upsidedown' width='20.0' height='26.199999' image='27'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#frame' name='Cadre' creator='eTeks' model='26/frame.obj' x='708.1806' y='1291.5764' angle='4.712389' width='300.0' depth='2.2' height='400.0' modelSize='3155'>
+    <material name='Back' color='00000000'/>
+    <material name='Frame' color='00000000'/>
+    <material name='Picture'>
+      <texture name='Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project' width='20.0' height='22.421875' image='28'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='709.1721' y='1082.022' elevation='150.0' angle='4.712389' width='41.0' depth='10.0' height='45.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project' width='20.0' height='22.421875' image='28'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1245.5793' y='692.70715' elevation='150.0' angle='1.7484555E-7' width='52.5' depth='10.0' height='70.5' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Jeune fille épluchant des pommes de terre' width='20.0' height='27.24' image='29'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#frame' name='Cadre' creator='eTeks' model='26/frame.obj' x='1014.37225' y='688.8071' angle='1.7484555E-7' width='300.0' depth='2.2' height='400.0' modelSize='3155'>
+    <material name='Back' color='00000000'/>
+    <material name='Frame' color='00000000'/>
+    <material name='Picture'>
+      <texture name='Jeune fille épluchant des pommes de terre' width='20.0' height='27.24' image='29'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='clicClacOuvert' model='8/clicClacOuvert.obj' x='1152.3822' y='1241.1354' angle='1.5707964' width='370.0' depth='170.0' height='50.0' color='FF303030' modelSize='39758'/>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2997.6978' y='1991.3391' elevation='170.0' angle='1.5707964' width='33.0' depth='6.0' height='24.5' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Le quartier de viande de Monet' width='20.0' height='14.918367' image='30'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1771.6213' y='2494.765' elevation='150.0' angle='3.1415927' width='105.0' depth='6.0' height='75.0' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Nature morte hommard et jambon' width='20.0' height='13.916667' image='31'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#frame' name='Cadre' creator='eTeks' model='26/frame.obj' x='2999.5977' y='2197.5664' angle='1.5707964' width='350.0' depth='2.2' height='400.0' modelSize='3155'>
+    <material name='Back' color='00000000'/>
+    <material name='Frame' color='00000000'/>
+    <material name='Picture'>
+      <texture name='Le quartier de viande de Monet' width='20.0' height='14.918367' image='30'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1706.062' y='692.70715' elevation='150.0' angle='1.7484555E-7' width='102.0' depth='10.0' height='85.6' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Inétrieur de cuisine Louvre' width='20.0' height='15.973941' image='32'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1294.7539' y='1780.8694' elevation='150.0' angle='3.1415927' width='37.5' depth='10.0' height='46.2' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='The Kitchen Maid' width='20.0' height='25.0' image='33'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#frame' name='Cadre' creator='eTeks' model='26/frame.obj' x='1093.1978' y='1784.7694' angle='3.1415927' width='300.0' depth='2.2' height='400.0' modelSize='3155'>
+    <material name='Back' color='00000000'/>
+    <material name='Frame' color='00000000'/>
+    <material name='Picture'>
+      <texture name='The Kitchen Maid' width='20.0' height='25.0' image='33'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1521.4454' y='1497.5394' elevation='170.0' angle='4.712389' width='41.0' depth='10.0' depthInPlan='10.000001' height='33.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Kitchen Scene' width='20.0' height='16.25' image='34'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1521.4453' y='979.1007' elevation='150.0' angle='4.712389' width='61.0' depth='10.0' height='73.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Interieur cuisine, cuivre, Bonvin' width='20.0' height='24.875622' image='35'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2345.2388' y='692.70715' elevation='150.0' width='160.0' depth='10.0' height='113.7' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Kitchen scene Peter Wtewael' width='20.0' height='14.216667' image='36'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1521.4453' y='787.1928' elevation='150.0' angle='4.712389' width='74.6' depth='10.0' height='56.8' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='interieur de cuisine, Quiringh' width='20.0' height='15.174216' image='37'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2190.5408' y='1780.8694' elevation='130.0' angle='3.1415927' width='235.0' depth='10.0' height='190.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1521.4454' y='1656.7911' elevation='160.0' angle='4.712389' width='44.0' depth='10.0' height='52.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='A Kitchen Hendrick' width='20.0' height='23.460411' image='38'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='1426.7384' y='675.20715' elevation='150.0' angle='3.1415927' width='119.5' depth='10.0' height='100.5' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Diego_Velazquez_-_An_Old_Woman_Cooking_Eggs_-_Google_Art_Project' width='20.0' height='16.914062' image='39'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2004.9897' y='2494.765' elevation='160.0' angle='3.1415927' width='151.5' depth='6.0' height='38.0' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Canard Bonvin' width='20.0' height='4.9185185' image='40'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2762.271' y='1191.9177' elevation='160.0' angle='3.1415927' width='95.0' depth='10.0' height='71.7' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Le boucher Valentino' width='20.0' height='14.939982' image='41'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2995.6978' y='918.39935' elevation='100.5' angle='1.5707964' width='130.0' depth='10.0' height='200.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Intérrieur de cuisine Vollon' width='20.0' height='31.613924' image='42'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2407.4253' y='2494.765' elevation='160.0' angle='3.1415927' width='73.3' depth='6.0' height='60.8' modelSize='64271'>
+    <material name='Canvas'>
+      <texture name='Viande de boucherie Boselli' width='20.0' height='16.415972' image='43'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='frame_horizontal' model='10/frame_horizontal.obj' x='2008.0977' y='692.70715' elevation='150.0' angle='1.7484555E-7' width='215.0' depth='10.0' height='92.0' modelSize='64271'>
+    <material name='Back'>
+      <texture name='Le Four' width='20.0' height='15.891238' image='16'/>
+    </material>
+    <material name='Canvas'>
+      <texture name='Kitchen scene Pieter Aertsen' width='20.0' height='8.347751' image='44'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='clicClacOuvert' model='8/clicClacOuvert.obj' x='1502.3687' y='385.777' width='595.0' depth='135.0' height='50.0' color='FF303030' modelSize='39758'/>
+  <pieceOfFurniture catalogId='eTeks#frame' name='Cadre' creator='eTeks' model='26/frame.obj' x='1680.866' y='679.1072' angle='3.1415927' width='300.0' depth='2.2' height='400.0' modelSize='3155'>
+    <material name='Back' color='00000000'/>
+    <material name='Frame' color='00000000'/>
+    <material name='Picture'>
+      <texture name='Diego_Velazquez_-_An_Old_Woman_Cooking_Eggs_-_Google_Art_Project' width='20.0' height='16.914062' image='39'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='arch' model='46/arch.obj' x='2755.2961' y='1786.8345' elevation='295.0' width='493.0' depth='20.0' height='105.0' color='FFFFFFFF' modelSize='4517'/>
+  <pieceOfFurniture name='arch' model='46/arch.obj' x='620.8556' y='209.72334' elevation='300.0' angle='1.5707964' width='410.0' depth='20.0' height='105.0' color='FFFFFFFF' modelSize='4517'/>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2183.921' y='2497.265' elevation='170.0' angle='3.1415927' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1909.5085' y='2497.265' elevation='170.0' angle='3.1415927' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2355.5999' y='2497.265' elevation='160.0' angle='3.1415927' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Un boucher' width='20.0' height='20.0' image='50'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1695.0874' y='2497.265' elevation='170.0' angle='3.1415927' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1500.7113' y='2497.265' elevation='170.0' angle='3.1415927' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Claez Pieter Hareng' width='20.0' height='20.0' image='51'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1272.9268' y='2497.265' elevation='170.0' angle='3.1415927' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='RECCO Giuseppe' width='20.0' height='20.0' image='52'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1492.1622' y='1793.8694' elevation='170.0' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1697.472' y='1793.8694' elevation='170.0' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Bert Nature morte au singe' width='20.0' height='20.0' image='53'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1774.0077' y='1793.8694' elevation='170.0' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Coninck David' width='20.0' height='20.0' image='54'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2107.6775' y='1793.8694' elevation='170.0' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Meijer de Haan oignons' width='20.0' height='20.0' image='55'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2257.6758' y='1793.8694' elevation='160.5' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Sérusier Paul citron escargot' width='20.0' height='20.0' image='56'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2352.3308' y='1792.5471' elevation='150.0' angle='0.008658982' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Sérusier Paul Potiron' width='20.0' height='20.0' image='57'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2447.9275' y='1793.8694' elevation='160.0' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Sérusier Paul citron pomme' width='20.0' height='20.0' image='58'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='3000.1978' y='1956.152' elevation='175.0' angle='1.5707964' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Monet viande' width='20.0' height='20.0' image='59'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2326.3152' y='1785.3694' elevation='100.0' angle='3.1415927' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1864.627' y='1785.3694' elevation='100.0' angle='3.1415927' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1516.9454' y='1619.5425' elevation='100.0' angle='4.712389' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1516.9454' y='1463.4341' elevation='100.0' angle='4.712389' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1516.9453' y='1026.0878' elevation='100.0' angle='4.712389' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1516.9453' y='845.07495' elevation='100.0' angle='4.712389' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1631.7488' y='688.20715' elevation='100.0' angle='1.7484555E-7' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1879.5782' y='688.20715' elevation='100.0' angle='1.7484555E-7' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2244.641' y='688.20715' elevation='100.0' angle='1.7484555E-7' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1292.8053' y='688.20715' elevation='100.0' angle='1.7484555E-7' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='707.58057' y='1040.5138' elevation='100.0' angle='1.5707964' width='15.0' widthInPlan='15.000002' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1337.4807' y='1785.3694' elevation='100.0' angle='3.1415927' width='15.0' widthInPlan='15.000002' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='1344.0607' y='679.70715' elevation='170.0' angle='3.1415927' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='3000.1978' y='998.6015' elevation='100.0' angle='1.5707964' width='15.0' widthInPlan='15.000001' depth='1.0' height='0.1' heightInPlan='0.10000001' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='3000.1978' y='829.1145' elevation='160.0' angle='1.5707964' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Vollon Antoine' width='20.0' height='20.0' image='60'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='3000.1978' y='319.1261' elevation='170.0' angle='1.5707964' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='test 3' width='20.0' height='20.0' image='49'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2694.7056' y='1196.4177' elevation='160.5' angle='3.1415927' width='15.0' widthInPlan='15.000001' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Un boucher' width='20.0' height='20.0' image='50'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1854.0499' y='2395.647' elevation='370.0' width='2275.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1600.5806' y='1908.3694' elevation='370.0' width='1787.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='2489.7695' y='1848.3694' elevation='370.0' angle='4.712389' width='110.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1386.9023' y='1893.8446' elevation='370.0' angle='3.6651917' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1341.5503' y='1890.485' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='3.42' y='4.935' elevation='150.0' width='6.84' depth='9.87' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='3.42' y='4.935' elevation='150.0' width='6.84' depth='9.87' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1683.2207' y='1893.7625' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1777.25' y='1894.9995' elevation='370.0' angle='3.6651917' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2075.691' y='1892.9431' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2127.9333' y='1892.5415' elevation='370.0' angle='3.6651917' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2305.1099' y='1892.9431' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2423.72' y='1892.5415' elevation='370.0' angle='3.6651917' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2771.9453' y='2373.502' elevation='370.0' angle='3.6651917' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1924.0063' y='2408.1685' elevation='370.0' angle='5.7595863' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1844.2476' y='2407.735' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2367.1824' y='2408.397' elevation='370.0' angle='5.7595863' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2262.6836' y='2407.62' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1493.1802' y='2408.527' elevation='370.0' angle='5.7595863' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1413.3188' y='2406.6003' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2678.0254' y='2416.5842' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <pieceOfFurniture catalogId='eTeks#texturableBox' name='Boîte' creator='eTeks' model='48/texturableBox.obj' x='2075.9946' y='1793.8694' elevation='170.0' angle='1.7484555E-7' width='15.0' depth='1.0' height='15.0' modelSize='1661'>
+    <material name='front'>
+      <texture name='Meijer de Haan bettraves' width='20.0' height='20.0' image='65'/>
+    </material>
+  </pieceOfFurniture>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1110.0806' y='1707.875' elevation='370.0' width='806.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1313.9371' y='1716.9191' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='921.22107' y='1695.6918' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1102.9453' y='793.5726' elevation='370.0' width='812.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='885.1272' y='804.22125' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1280.2452' y='782.99396' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='2003.4453' y='845.2335' elevation='370.0' width='974.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1992.4454' y='1581.3844' elevation='370.0' width='952.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='2463.2974' y='1684.9645' elevation='370.0' angle='4.712389' width='201.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='2486.2046' y='767.70715' elevation='370.0' angle='4.712389' width='160.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1582.6547' y='834.2836' elevation='370.0' angle='2.3561945' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1772.0546' y='833.5388' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1853.0292' y='833.4813' elevation='370.0' angle='3.6651917' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2374.581' y='833.5388' elevation='370.0' angle='2.8797934' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2498.0776' y='751.6468' elevation='370.0' angle='4.1887903' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2496.4731' y='792.564' elevation='370.0' angle='5.4977875' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1624.0446' y='856.37067' elevation='370.0' angle='0.7853982' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1595.5441' y='1594.1674' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1747.981' y='1591.7604' elevation='370.0' angle='5.7595863' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1983.8567' y='1591.7604' elevation='370.0' angle='5.7595863' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2353.6592' y='1592.8353' elevation='370.0' angle='0.5235988' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2473.4138' y='1624.1201' elevation='370.0' angle='4.4505897' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1647.6936' y='1573.1426' elevation='370.0' angle='2.3561945' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2496.7292' y='1847.6127' elevation='370.0' angle='5.2359877' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1338.6722' y='455.20767' elevation='370.0' width='1269.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='1968.6759' y='567.70715' elevation='370.0' angle='1.5707964' width='225.0' depth='10.0' depthInPlan='10.000001' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1800.219' y='468.0422' elevation='370.0' angle='0.7853982' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1165.9318' y='466.57394' elevation='370.0' angle='5.7595863' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1480.1389' y='446.01834' elevation='370.0' angle='3.1415927' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='1913.4534' y='445.46274' elevation='370.0' angle='3.1415927' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='962.02246' y='443.99448' elevation='370.0' angle='3.1415927' width='23.0' depth='22.0' height='13.1' modelSize='9300'/>
+  <pieceOfFurniture name='metalBeam (1)' model='62/metalBeam.obj' x='2865.2593' y='599.9871' elevation='370.0' angle='4.712389' width='1200.0' depth='10.0' height='20.0' color='FFFFFFFF' modelSize='2066'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2876.752' y='807.98065' elevation='370.0' angle='5.4977875' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2876.8882' y='434.50314' elevation='370.0' angle='4.1887903' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <light catalogId='eTeks#spotlight' name='Spot' creator='eTeks' model='64' x='2858.399' y='1135.4022' elevation='370.0' angle='0.7853982' width='23.0' depth='22.0' height='13.1' shininess='0.5' modelSize='9300'/>
+  <wall id='wall-309545f9-13be-4b8a-96b7-3c4113b73d41' wallAtStart='wall-d7907619-aaf8-4876-a92f-8a08ad1e653b' wallAtEnd='wall-64c5ca34-9917-4e9b-b143-151cfc12566d' xStart='3004.4478' yStart='2991.9985' xEnd='3004.4478' yEnd='-4.001465' height='400.0' thickness='7.5' pattern='background' topColor='FFFFFFFF' leftSideColor='FF000C2F' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-64c5ca34-9917-4e9b-b143-151cfc12566d' wallAtStart='wall-309545f9-13be-4b8a-96b7-3c4113b73d41' xStart='3004.4478' yStart='-4.001465' xEnd='-2.5' yEnd='0.9733887' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FF0D0D0D'/>
+  <wall id='wall-32219c2a-583e-4bd4-a064-b6124dd88798' wallAtStart='wall-2aa274f3-a1af-4441-a86d-845e8b56d5a8' xStart='1224.5137' yStart='2501.515' xEnd='1224.5137' yEnd='2989.5886' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-ef334e93-eee5-444a-a6f4-6048c649f4e6' wallAtStart='wall-28a779ab-9291-4f98-8870-a92b2d4ef696' xStart='1225.7349' yStart='2501.515' xEnd='1225.7349' yEnd='2551.515' height='250.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-fb94b213-2cdd-4869-93e7-278373eb151c' wallAtStart='wall-88fea829-e06f-420f-a444-1bb306805f5f' xStart='703.3305' yStart='2596.5647' xEnd='340.42206' yEnd='2599.4731' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-0748772d-1ffe-466b-b0ad-4b5ab217d06d' xStart='-2.5' yStart='993.7674' xEnd='437.5' yEnd='993.7674' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-08904285-0cc4-49f3-8238-4eb3c869c0c7' wallAtEnd='wall-71953cef-bf5c-4d29-b864-480f5b3f28c7' xStart='-2.5' yStart='1390.8496' xEnd='437.5' yEnd='1390.8496' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-6179051c-b3c3-40aa-a35b-f842a7d22686' xStart='1512.6954' yStart='1378.0969' xEnd='1512.6954' yEnd='1789.6196' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FF000C2F'/>
+  <wall id='wall-1eadea67-fd65-4692-b0fc-d9c20aa82464' xStart='2505.0461' yStart='683.95715' xEnd='700.42224' yEnd='683.95715' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FF000C2F'/>
+  <wall id='wall-e5e8f4b4-e7e2-4ded-b371-ca54cca32c3b' xStart='1512.6953' yStart='691.3419' xEnd='1512.6953' yEnd='1102.8647' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FF000C2F'/>
+  <wall id='wall-71953cef-bf5c-4d29-b864-480f5b3f28c7' wallAtStart='wall-08904285-0cc4-49f3-8238-4eb3c869c0c7' wallAtEnd='wall-3feab40d-7ed1-4532-93f8-1b0b87c3bef0' xStart='437.5' yStart='1390.8496' xEnd='437.5' yEnd='1996.3843' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-3feab40d-7ed1-4532-93f8-1b0b87c3bef0' wallAtStart='wall-71953cef-bf5c-4d29-b864-480f5b3f28c7' wallAtEnd='wall-717c7bfd-1595-48f2-a0f8-80acae8d0196' xStart='437.5' yStart='1996.3843' xEnd='700.42206' yEnd='1996.3843' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-3e48a8d7-8efd-4c8c-b299-617bead5e661' wallAtStart='wall-b76bd7c9-798f-4e76-b1b5-5991de175310' wallAtEnd='wall-04a162de-2935-4b23-97b6-a29f21230cdb' xStart='700.42224' yStart='407.62332' xEnd='437.5' yEnd='407.62332' height='390.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-a4055df9-b38c-4890-a06d-daae98d5c1a7' wallAtEnd='wall-182ce6c7-6858-4ae8-bb35-d2c3d28e573a' xStart='1225.7349' yStart='2501.515' xEnd='1233.0531' yEnd='2501.3127' height='250.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-133dc0a2-51e6-4af6-87b0-e59dd84755a1' wallAtStart='wall-ec251589-d5cc-4210-9e9a-f721452e4bdb' xStart='2505.0461' yStart='2501.515' xEnd='2505.0461' yEnd='2989.5886' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-fc95c4af-11a1-4d09-a6ac-19c5ff6d4949' xStart='2997.5' yStart='2501.515' xEnd='2718.404' yEnd='2501.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-0b51ecc1-7fac-4854-81b2-6e61ef1f2e33' xStart='2718.404' yStart='2501.515' xEnd='2718.404' yEnd='2971.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-048b9ec8-7274-4384-8583-a5ac3011474c' xStart='3013.3928' yStart='1200.6677' xEnd='2597.3928' yEnd='1200.6677' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-7b5c2ec5-0236-4b51-80f5-afdf6f65aada' xStart='1975.3528' yStart='1789.6196' xEnd='1975.3528' yEnd='1805.6196' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-776af555-3435-4922-a26b-8c8ec72c7a4e' xStart='2199.7998' yStart='1791.1484' xEnd='2199.7998' yEnd='1807.1484' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-25b8f114-a5a0-4d6e-8b21-2c28385637c0' xStart='1540.9137' yStart='1793.2579' xEnd='1540.9137' yEnd='1805.2579' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-2aa274f3-a1af-4441-a86d-845e8b56d5a8' wallAtStart='wall-32219c2a-583e-4bd4-a064-b6124dd88798' xStart='1224.5137' yStart='2501.515' xEnd='1224.5137' yEnd='2481.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-5c80bd92-458f-4b44-903b-74702646b021' xStart='1664.9396' yStart='2497.9192' xEnd='1664.9396' yEnd='2481.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-1dbe01f2-9213-4ae0-aac9-6e70a1cd76e6' xStart='1855.7444' yStart='2498.6284' xEnd='1855.7444' yEnd='2481.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-fe8c68c5-9b4f-4d9a-9410-201867cb1341' xStart='2504.7642' yStart='2500.047' xEnd='2504.7642' yEnd='2481.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-f3d48f2e-da01-4091-962c-fccb2486a118' wallAtEnd='wall-83ca43dd-ec24-4acf-9f3d-ba4b8d3fc862' xStart='-2.5000153' yStart='-3.0269165' xEnd='-2.5000153' yEnd='0.9733887' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-ee0d619c-644d-4cfb-a885-7ce3a8f766f9' wallAtStart='wall-873b1377-a2c6-4b3f-aa26-e31990ff7d9d' xStart='1512.6954' yStart='1789.6194' xEnd='700.85547' yEnd='1789.6194' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-28a779ab-9291-4f98-8870-a92b2d4ef696' wallAtStart='wall-ef334e93-eee5-444a-a6f4-6048c649f4e6' wallAtEnd='wall-c968e4fb-fd4e-4995-9cf7-8aa64d0ab509' xStart='1225.7349' yStart='2501.515' xEnd='1664.9396' yEnd='2501.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F'/>
+  <wall id='wall-d7907619-aaf8-4876-a92f-8a08ad1e653b' wallAtStart='wall-309545f9-13be-4b8a-96b7-3c4113b73d41' wallAtEnd='wall-83898567-1d32-4584-b0f7-73c4551aba6f' xStart='3004.4478' yStart='2991.9985' xEnd='2505.0461' yEnd='2993.3062' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-83898567-1d32-4584-b0f7-73c4551aba6f' wallAtStart='wall-d7907619-aaf8-4876-a92f-8a08ad1e653b' xStart='2505.0461' yStart='2993.3062' xEnd='1104.5137' yEnd='2996.973' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-b76bd7c9-798f-4e76-b1b5-5991de175310' wallAtStart='wall-9925e0eb-db25-49f9-8cb2-00fe903fd835' wallAtEnd='wall-3e48a8d7-8efd-4c8c-b299-617bead5e661' xStart='700.42206' yStart='683.95715' xEnd='700.42224' yEnd='407.62332' height='250.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-04a162de-2935-4b23-97b6-a29f21230cdb' wallAtStart='wall-3e48a8d7-8efd-4c8c-b299-617bead5e661' wallAtEnd='wall-02860f7b-ef52-43ba-a9e0-35defcacdf91' xStart='437.5' yStart='407.62332' xEnd='437.5' yEnd='993.7674' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-02860f7b-ef52-43ba-a9e0-35defcacdf91' wallAtStart='wall-04a162de-2935-4b23-97b6-a29f21230cdb' xStart='437.5' yStart='993.7674' xEnd='437.49997' yEnd='1390.8496' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-182ce6c7-6858-4ae8-bb35-d2c3d28e573a' wallAtStart='wall-a4055df9-b38c-4890-a06d-daae98d5c1a7' wallAtEnd='wall-3b8a388e-6d80-453d-b566-75f8a1b99afc' xStart='1233.0531' yStart='2501.3127' xEnd='1224.5137' yEnd='2501.3127' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-3b8a388e-6d80-453d-b566-75f8a1b99afc' wallAtStart='wall-182ce6c7-6858-4ae8-bb35-d2c3d28e573a' xStart='1224.5137' yStart='2501.3127' xEnd='1113.0531' yEnd='2501.3127' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-4ceabf3f-d215-440e-9c3c-7a813202bfdc' wallAtEnd='wall-0d9264fc-a194-44d4-b7b5-dcfaf3abcc23' xStart='2505.0461' yStart='1766.4888' xEnd='2505.0461' yEnd='1789.6194' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-0d9264fc-a194-44d4-b7b5-dcfaf3abcc23' wallAtStart='wall-4ceabf3f-d215-440e-9c3c-7a813202bfdc' xStart='2505.0461' yStart='1789.6194' xEnd='2505.0461' yEnd='1805.4888' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-83ca43dd-ec24-4acf-9f3d-ba4b8d3fc862' wallAtStart='wall-f3d48f2e-da01-4091-962c-fccb2486a118' wallAtEnd='wall-0dc514b8-3552-403a-806d-89ac1a0113a1' xStart='-2.5000153' yStart='0.9733887' xEnd='-2.5000153' yEnd='993.7674' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-ea3f358e-4595-4f81-b214-3cf7f5e8f025' wallAtStart='wall-92fc818b-a6d8-4c41-b9f7-eb74ae48d3d1' wallAtEnd='wall-d20399ca-0ef0-495d-aa68-3e1934f2d531' xStart='703.3306' yStart='683.95715' xEnd='703.3306' yEnd='1789.6194' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-d20399ca-0ef0-495d-aa68-3e1934f2d531' wallAtStart='wall-ea3f358e-4595-4f81-b214-3cf7f5e8f025' wallAtEnd='wall-88fea829-e06f-420f-a444-1bb306805f5f' xStart='703.3306' yStart='1789.6194' xEnd='703.3306' yEnd='1996.3843' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-88fea829-e06f-420f-a444-1bb306805f5f' wallAtStart='wall-d20399ca-0ef0-495d-aa68-3e1934f2d531' wallAtEnd='wall-fb94b213-2cdd-4869-93e7-278373eb151c' xStart='703.3306' yStart='1996.3843' xEnd='703.3305' yEnd='2596.5647' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-c968e4fb-fd4e-4995-9cf7-8aa64d0ab509' wallAtStart='wall-28a779ab-9291-4f98-8870-a92b2d4ef696' wallAtEnd='wall-ec251589-d5cc-4210-9e9a-f721452e4bdb' xStart='1664.9396' yStart='2501.515' xEnd='1855.7444' yEnd='2501.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F'/>
+  <wall id='wall-ec251589-d5cc-4210-9e9a-f721452e4bdb' wallAtStart='wall-c968e4fb-fd4e-4995-9cf7-8aa64d0ab509' wallAtEnd='wall-133dc0a2-51e6-4af6-87b0-e59dd84755a1' xStart='1855.7444' yStart='2501.515' xEnd='2505.0461' yEnd='2501.515' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F'/>
+  <wall id='wall-717c7bfd-1595-48f2-a0f8-80acae8d0196' wallAtStart='wall-3feab40d-7ed1-4532-93f8-1b0b87c3bef0' wallAtEnd='wall-9925e0eb-db25-49f9-8cb2-00fe903fd835' xStart='700.42206' yStart='1996.3843' xEnd='700.42206' yEnd='1789.6194' height='250.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-9925e0eb-db25-49f9-8cb2-00fe903fd835' wallAtStart='wall-717c7bfd-1595-48f2-a0f8-80acae8d0196' wallAtEnd='wall-b76bd7c9-798f-4e76-b1b5-5991de175310' xStart='700.42206' yStart='1789.6194' xEnd='700.42206' yEnd='683.95715' height='250.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-0dc514b8-3552-403a-806d-89ac1a0113a1' wallAtStart='wall-83ca43dd-ec24-4acf-9f3d-ba4b8d3fc862' wallAtEnd='wall-03b71bbc-bd1a-4677-ac62-ddadcfa2216f' xStart='-2.5000153' yStart='993.7674' xEnd='-2.5000153' yEnd='1390.8496' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-03b71bbc-bd1a-4677-ac62-ddadcfa2216f' wallAtStart='wall-0dc514b8-3552-403a-806d-89ac1a0113a1' xStart='-2.5000153' yStart='1390.8496' xEnd='-2.5000153' yEnd='2996.9736' height='400.0' thickness='7.5' pattern='hatchUp'/>
+  <wall id='wall-c7f15c86-1e02-42dd-bdb6-07b9ef176b73' wallAtEnd='wall-92fc818b-a6d8-4c41-b9f7-eb74ae48d3d1' xStart='703.3306' yStart='399.98682' xEnd='703.3306' yEnd='407.62332' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-92fc818b-a6d8-4c41-b9f7-eb74ae48d3d1' wallAtStart='wall-c7f15c86-1e02-42dd-bdb6-07b9ef176b73' wallAtEnd='wall-ea3f358e-4595-4f81-b214-3cf7f5e8f025' xStart='703.3306' yStart='407.62332' xEnd='703.3306' yEnd='683.95715' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FFFFFFFF' rightSideColor='FFFFFFFF'/>
+  <wall id='wall-cf7268be-3b8e-4f40-b12f-ddf532f74637' wallAtEnd='wall-dd5b7578-a695-4239-bf75-c10807d270ea' xStart='2505.0461' yStart='1789.6194' xEnd='2199.7998' yEnd='1786.9762' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F' rightSideColor='FF000C2F'/>
+  <wall id='wall-dd5b7578-a695-4239-bf75-c10807d270ea' wallAtStart='wall-cf7268be-3b8e-4f40-b12f-ddf532f74637' wallAtEnd='wall-58756e1d-087e-4062-b7d2-f3df893fdac6' xStart='2199.7998' yStart='1786.9762' xEnd='1975.3528' yEnd='1786.9762' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F' rightSideColor='FF000C2F'/>
+  <wall id='wall-58756e1d-087e-4062-b7d2-f3df893fdac6' wallAtStart='wall-dd5b7578-a695-4239-bf75-c10807d270ea' wallAtEnd='wall-873b1377-a2c6-4b3f-aa26-e31990ff7d9d' xStart='1975.3528' yStart='1786.9762' xEnd='1540.9137' yEnd='1789.6194' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F' rightSideColor='FF000C2F'/>
+  <wall id='wall-873b1377-a2c6-4b3f-aa26-e31990ff7d9d' wallAtStart='wall-58756e1d-087e-4062-b7d2-f3df893fdac6' wallAtEnd='wall-ee0d619c-644d-4cfb-a885-7ce3a8f766f9' xStart='1540.9137' yStart='1789.6194' xEnd='1512.6954' yEnd='1789.6194' height='400.0' thickness='7.5' pattern='hatchUp' leftSideColor='FF000C2F' rightSideColor='FFFFFFFF'/>
+  <room id='room-50fb0bbe-8409-47c9-9929-00f7a3622b7a' areaVisible='true' ceilingColor='FF303030' ceilingFlat='true'>
+    <texture attribute='floorTexture' name='Planks 021' creator='ambientCG.com' catalogId='ambientcg#Planks021' width='140.0' height='140.0' image='66'/>
+    <point x='-2.5644684' y='-0.5384369'/>
+    <point x='3004.3828' y='-1.7570801'/>
+    <point x='3004.3828' y='2986.7476'/>
+    <point x='-2.5644684' y='2995.463'/>
+  </room>
+  <label id='label-cf21dc13-9d0c-493a-aca3-e0e509f2a74c' x='951.9463' y='1797.9728' elevation='100.0' pitch='1.5707964' color='FFF5F5F5'>
+    <textStyle fontName='Arial' fontSize='12.0'/>
+    <text>Avant le repas, il y a l’aliment : fruit éclatant, poisson brillant, pain tiède. &#10;&#10;Cette section réunit des natures mortes où l’aliment devient sujet, &#10;permettant aux artistes du XVIIe au XIXe siècle d’explorer textures, couleurs et reflets. &#10;Ces œuvres montrent ce qui va être mangé, mais aussi ce qui est offert au regard.&#10;&#10;En célébrant un citron, un poisson ou une corbeille,&#10;elles révèlent la beauté fragile du vivant et le passage du temps. &#10;Loin d’être de simples éléments du quotidien,&#10;ces aliments sont sublimés par la lumière et la précision du geste.&#10;Un geste qui rappelle aussi nos propres actes de chaque jour.&#10;&#10;Isolés sur une table ou dans un panier,&#10; ils invitent à anticiper le goût, l’odeur, le geste de saisir. &#10;Ici, regarder revient déjà à goûter.&#10;&#10;</text>
+  </label>
+  <label id='label-4af42393-e1f6-4531-b2a9-c8bf9ba51ea6' x='2992.119' y='1458.961' angle='1.5707964' elevation='100.0' pitch='1.5707964' color='FFFFFFFF'>
+    <textStyle fontSize='12.0'/>
+    <text>“EN CUISINE: L’ART MIJOTE”&#10;&#10;La cuisine est le lieu où l’aliment se transforme :&#10;Il devient matière travaillée, transformée, partagée. &#10;&#10;Les oeuvres présentées dans cette section montrent l’envers du repas, &#10;ce moment souvent invisible où se concoctent les plats. &#10;Couper, mélanger, pétrir, surveiller : &#10;autant de gestes hérités, transmis et répétés, &#10;qui relèvent autant de la tradition que de l’invention quotidienne.&#10; &#10;Ces scènes de cuisine, parfois modestes, parfois joyeuses, &#10;témoignent d’une proximité intime entre les corps et les aliments. &#10;&#10;L’espace domestique devient une petite scène où se jouent des relations humaines,&#10; entre famille, amis, serviteurs, ou artisans. &#10;Ici, l’art capture la chaleur, le mouvement, le bruit et l’odeur qui précèdent la table dressée. &#10;La cuisine révèle le travail et la créativité indispensables à toute forme de convivialité.&#10;</text>
+  </label>
+</home>
