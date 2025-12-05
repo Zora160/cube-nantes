@@ -64,6 +64,24 @@ body {
 </head>
 
 <body>
+   <style>
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  canvas, #viewerCanvas, .homeview3d, .canvas3D {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    display: block !important;
+  }
+</style>
 <div>
   <!-- Copy the following canvas and components in your page, changing their size / texts and other values if needed  -->
   <canvas id="viewerCanvas" class="viewerComponent" width="800" height="600"
